@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BC4C39B2360187000D639F2 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C39A2360187000D639F2 /* PhotoDetailsViewController.swift */; };
 		236BCB832E7A8E06C7F97AF7 /* Pods_TumblrApp_TumblrAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462CFC53AAF191F3F0AF6B34 /* Pods_TumblrApp_TumblrAppUITests.framework */; };
 		A77F9C76C743C23B0CD82161 /* Pods_TumblrAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA73F4B69FF9902F710E163 /* Pods_TumblrAppTests.framework */; };
 		B2E7BC6341BFAB995D6B5F11 /* Pods_TumblrApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352B4287B20D70BCA1EAD80C /* Pods_TumblrApp.framework */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		0B19A20DA57BDEBC36FCEA7D /* Pods-TumblrAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TumblrAppTests/Pods-TumblrAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BC4C39A2360187000D639F2 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		352B4287B20D70BCA1EAD80C /* Pods_TumblrApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblrApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA73F4B69FF9902F710E163 /* Pods_TumblrAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblrAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		462CFC53AAF191F3F0AF6B34 /* Pods_TumblrApp_TumblrAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblrApp_TumblrAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 			children = (
 				B9E7B45E23524359008FC28C /* AppDelegate.swift */,
 				B9E7B46223524359008FC28C /* Main.storyboard */,
+				1BC4C39A2360187000D639F2 /* PhotoDetailsViewController.swift */,
 				B9E7B4652352435B008FC28C /* Assets.xcassets */,
 				B9E7B4672352435B008FC28C /* LaunchScreen.storyboard */,
 				B9E7B46A2352435B008FC28C /* Info.plist */,
@@ -165,7 +168,6 @@
 				0B19A20DA57BDEBC36FCEA7D /* Pods-TumblrAppTests.debug.xcconfig */,
 				DFBA5579ECE3A74394CA1A49 /* Pods-TumblrAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC4C39B2360187000D639F2 /* PhotoDetailsViewController.swift in Sources */,
 				B9E7B45F23524359008FC28C /* AppDelegate.swift in Sources */,
 				B9E7B49323524CC8008FC28C /* PhotoCell.swift in Sources */,
 				B9E7B48F2352454D008FC28C /* PhotosViewController.swift in Sources */,
